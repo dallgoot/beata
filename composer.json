@@ -1,0 +1,22 @@
+{
+    "name": "stef/beata",
+    "description": "calculate commissions for already made transactions",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stef\\Beata\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephane Rebai",
+            "email": "stephane.rebai@gmail.com"
+        }
+    ]
+}

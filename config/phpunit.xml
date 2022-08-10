@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd" backupGlobals="true" backupStaticAttributes="false" bootstrap="../vendor/autoload.php" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" forceCoversAnnotation="true" processIsolation="true" stopOnError="true" stopOnFailure="true" stopOnIncomplete="true" stopOnSkipped="true" stopOnRisky="true" timeoutForSmallTests="1" timeoutForMediumTests="10" timeoutForLargeTests="60" colors="true" verbose="true">
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">../src</directory>
+    </include>
+    <exclude>
+      <file>../src/app.php</file>
+    </exclude>
+    <report>
+      <clover outputFile="../documentation/codecoverage/coverage-clover.xml"/>
+      <html outputDirectory="../documentation/codecoverage/php-code-coverage" lowUpperBound="40" highLowerBound="80"/>
+      <xml outputDirectory="../documentation/codecoverage/phpunit"/>
+    </report>
+  </coverage>
+  <testsuites>
+    <testsuite name="All">
+      <directory>../tests/</directory>
+    </testsuite>
+  </testsuites>
+  <logging>
+    <!-- <log type="coverage-text" target="php://stdout" showUncoveredFiles="true"/> -->
+  </logging>
+</phpunit>
