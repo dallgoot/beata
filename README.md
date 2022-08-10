@@ -20,4 +20,4 @@ php src/app.php data/input.txt
 XDEBUG_MODE=coverage ./vendor/bin/phpunit -c config/phpunit.xml
 ```
 
-[SEE Code Coverage Results](/documentation/codecoverage/php-code-coverage/index.html)
+[SEE Code Coverage Results](documentation/codecoverage/php-code-coverage/index.html)

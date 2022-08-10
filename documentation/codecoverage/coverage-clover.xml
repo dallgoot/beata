@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1660120725">
+  <project timestamp="1660120725">
+    <file name="/mnt/d/code/php/beata/src/Calculations/Commissions.php">
+      <class name="Stef\Beata\Calculations\Commissions" namespace="global">
+        <metrics complexity="8" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="15" elements="19" coveredelements="16"/>
+      </class>
+      <line num="26" type="method" name="showFromFile" visibility="public" complexity="4" crap="4.05" count="2"/>
+      <line num="28" type="stmt" count="2"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="31" type="stmt" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="1"/>
+      <line num="41" type="stmt" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="54" type="stmt" count="1"/>
+      <line num="56" type="stmt" count="1"/>
+      <line num="65" type="method" name="getCommissionByAlpha2CountryCode" visibility="public" complexity="4" crap="4" count="3"/>
+      <line num="67" type="stmt" count="3"/>
+      <line num="68" type="stmt" count="2"/>
+      <line num="70" type="stmt" count="1"/>
+      <metrics loc="73" ncloc="46" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="15" elements="19" coveredelements="16"/>
+    </file>
+    <file name="/mnt/d/code/php/beata/src/Providers/BinLookup/BinListNet.php">
+      <class name="Stef\Beata\Providers\BinLookup\BinListNet" namespace="global">
+        <metrics complexity="3" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="6" elements="9" coveredelements="6"/>
+      </class>
+      <line num="24" type="method" name="getAlpha2CountryCodeByBin" visibility="public" complexity="3" crap="3.14" count="2"/>
+      <line num="26" type="stmt" count="2"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="2"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <metrics loc="38" ncloc="26" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="6" elements="9" coveredelements="6"/>
+    </file>
+    <file name="/mnt/d/code/php/beata/src/Providers/BinLookup/BinLookupInterface.php">
+      <metrics loc="11" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/mnt/d/code/php/beata/src/Providers/CurrenciesRates/CurrenciesRatesInterface.php">
+      <metrics loc="13" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/mnt/d/code/php/beata/src/Providers/CurrenciesRates/ExchangeRatesIo.php">
+      <class name="Stef\Beata\Providers\CurrenciesRates\ExchangeRatesIo" namespace="global">
+        <metrics complexity="7" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="14" elements="17" coveredelements="14"/>
+      </class>
+      <line num="29" type="method" name="getEuroRateFromCurrency" visibility="public" complexity="7" crap="7.10" count="2"/>
+      <line num="31" type="stmt" count="2"/>
+      <line num="32" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="38" type="stmt" count="1"/>
+      <line num="39" type="stmt" count="1"/>
+      <line num="40" type="stmt" count="1"/>
+      <line num="41" type="stmt" count="0"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="48" type="stmt" count="1"/>
+      <line num="50" type="stmt" count="1"/>
+      <metrics loc="54" ncloc="40" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="14" elements="17" coveredelements="14"/>
+    </file>
+    <metrics files="5" loc="189" ncloc="129" classes="3" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="41" coveredstatements="35" elements="45" coveredelements="36"/>
+  </project>
+</coverage>

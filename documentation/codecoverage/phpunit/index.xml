@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Wed Aug 10 8:38:50 UTC 2022" phpunit="9.5.21" coverage="9.2.15">
+    <runtime name="PHP" version="8.1.9" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="3.1.5"/>
+  </build>
+  <project source="/mnt/d/code/php/beata/src">
+    <tests>
+      <test name="CommissionsTest::testGetCommissionByAlpha2CountryCode" size="unknown" result="0" status="PASSED"/>
+      <test name="CommissionsTest::testEmptyGetCommissionByAlpha2CountryCode" size="unknown" result="0" status="PASSED"/>
+      <test name="CommissionsTest::testInvalidGetCommissionByAlpha2CountryCode" size="unknown" result="0" status="PASSED"/>
+      <test name="CommissionsTest::testShowFromFile" size="unknown" result="0" status="PASSED"/>
+      <test name="CommissionsTest::testInvalidShowFromFile" size="unknown" result="0" status="PASSED"/>
+      <test name="BinListNetTest::testInvalidGetAlpha2CountryCodeByBin" size="unknown" result="0" status="PASSED"/>
+      <test name="BinListNetTest::testGetAlpha2CountryCodeByBin" size="unknown" result="0" status="PASSED"/>
+      <test name="ExchangeRatesIoTest::testGetEuroRateFromCurrency" size="unknown" result="0" status="PASSED"/>
+      <test name="ExchangeRatesIoTest::testInvalidGetEuroRateFromCurrency" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="189" comments="60" code="129" executable="41" executed="35" percent="85.37"/>
+        <methods count="4" tested="1" percent="25.00"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="3" tested="0" percent="0.00"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <directory name="Calculations">
+        <totals>
+          <lines total="73" comments="27" code="46" executable="17" executed="15" percent="88.24"/>
+          <methods count="2" tested="1" percent="50.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Commissions.php" href="Calculations/Commissions.php.xml">
+          <totals>
+            <lines total="73" comments="27" code="46" executable="17" executed="15" percent="88.24"/>
+            <methods count="2" tested="1" percent="50.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Providers">
+        <totals>
+          <lines total="116" comments="33" code="83" executable="24" executed="20" percent="83.33"/>
+          <methods count="2" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="2" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <directory name="BinLookup">
+          <totals>
+            <lines total="49" comments="15" code="34" executable="8" executed="6" percent="75.00"/>
+            <methods count="1" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+          <file name="BinListNet.php" href="Providers/BinLookup/BinListNet.php.xml">
+            <totals>
+              <lines total="38" comments="12" code="26" executable="8" executed="6" percent="75.00"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="BinLookupInterface.php" href="Providers/BinLookup/BinLookupInterface.php.xml">
+            <totals>
+              <lines total="11" comments="3" code="8" executable="0" executed="0" percent="0"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+        </directory>
+        <directory name="CurrenciesRates">
+          <totals>
+            <lines total="67" comments="18" code="49" executable="16" executed="14" percent="87.50"/>
+            <methods count="1" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+          <file name="CurrenciesRatesInterface.php" href="Providers/CurrenciesRates/CurrenciesRatesInterface.php.xml">
+            <totals>
+              <lines total="13" comments="4" code="9" executable="0" executed="0" percent="0"/>
+              <methods count="0" tested="0" percent="0"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="0" tested="0" percent="0"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+          <file name="ExchangeRatesIo.php" href="Providers/CurrenciesRates/ExchangeRatesIo.php.xml">
+            <totals>
+              <lines total="54" comments="14" code="40" executable="16" executed="14" percent="87.50"/>
+              <methods count="1" tested="0" percent="0.00"/>
+              <functions count="0" tested="0" percent="0"/>
+              <classes count="1" tested="0" percent="0.00"/>
+              <traits count="0" tested="0" percent="0"/>
+            </totals>
+          </file>
+        </directory>
+      </directory>
+    </directory>
+  </project>
+</phpunit>
